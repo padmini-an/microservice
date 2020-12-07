@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\softwares\jdkNewFolderInstalled" version="1.8.0_152">
+<bootpath>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\resources.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\rt.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\jsse.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\jce.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\charsets.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\jfr.jar"/>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\softwares\jdkNewFolderInstalled\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

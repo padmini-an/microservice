@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="orderingservice" project="orderingservice" tests="36" started="36" failures="1" errors="3" ignored="0">
+  <testsuite name="com.eatza.orderingservice.service.JwtAuthenticationServiceTest" time="1.465" displayname="JwtAuthenticationServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.JwtAuthenticationServiceTest]">
+    <testcase name="authenticateUser_invalidpassword" classname="com.eatza.orderingservice.service.JwtAuthenticationServiceTest" time="0.027" displayname="authenticateUser_invalidpassword" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser_invalidpassword(com.eatza.orderingservice.service.JwtAuthenticationServiceTest)]"/>
+    <testcase name="authenticateUser_invalidname" classname="com.eatza.orderingservice.service.JwtAuthenticationServiceTest" time="0.012" displayname="authenticateUser_invalidname" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser_invalidname(com.eatza.orderingservice.service.JwtAuthenticationServiceTest)]"/>
+    <testcase name="authenticateUser" classname="com.eatza.orderingservice.service.JwtAuthenticationServiceTest" time="1.425" displayname="authenticateUser" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser(com.eatza.orderingservice.service.JwtAuthenticationServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.service.OrderServiceTest" time="1.173" displayname="OrderServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]">
+    <testcase name="updateOrder_quantityLess" classname="com.eatza.orderingservice.service.OrderServiceTest" time="1.12" displayname="updateOrder_quantityLess" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_quantityLess(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_itemnull" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.003" displayname="updateOrder_itemnull" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_itemnull(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_serviceunavailable" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.004" displayname="updateOrder_serviceunavailable" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_serviceunavailable(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="getOrderAmountByOrderId_zero" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.001" displayname="getOrderAmountByOrderId_zero" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:getOrderAmountByOrderId_zero(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="getOrderAmountByOrderId" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.002" displayname="getOrderAmountByOrderId" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:getOrderAmountByOrderId(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="placeOrder_different_restaurant" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.004" displayname="placeOrder_different_restaurant" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:placeOrder_different_restaurant(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="cancelOrder_basic" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.002" displayname="cancelOrder_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:cancelOrder_basic(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="cancelOrder_false" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.001" displayname="cancelOrder_false" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:cancelOrder_false(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_orderNotFound" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.002" displayname="updateOrder_orderNotFound" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_orderNotFound(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_differentRestaurantUpdate" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.004" displayname="updateOrder_differentRestaurantUpdate" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_differentRestaurantUpdate(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="placeOrder_quantity_zero" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.003" displayname="placeOrder_quantity_zero" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:placeOrder_quantity_zero(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="getOrderById_basic" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.002" displayname="getOrderById_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:getOrderById_basic(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="placeOrder_no_item" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.003" displayname="placeOrder_no_item" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:placeOrder_no_item(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_restaurantDifferent" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.002" displayname="updateOrder_restaurantDifferent" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_restaurantDifferent(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="updateOrder_basic" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.004" displayname="updateOrder_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:updateOrder_basic(com.eatza.orderingservice.service.OrderServiceTest)]"/>
+    <testcase name="placeOrder_basic" classname="com.eatza.orderingservice.service.OrderServiceTest" time="0.016" displayname="placeOrder_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.OrderServiceTest]/[test:placeOrder_basic(com.eatza.orderingservice.service.OrderServiceTest)]">
+      <error>java.lang.NullPointerException&#13;
+	at com.eatza.orderingservice.service.orderservice.OrderServiceImpl.placeOrder(OrderServiceImpl.java:99)&#13;
+	at com.eatza.orderingservice.service.OrderServiceTest.placeOrder_basic(OrderServiceTest.java:90)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:46)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:77)&#13;
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:83)&#13;
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39)&#13;
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.service.ItemServiceTest" time="0.457" displayname="ItemServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.ItemServiceTest]">
+    <testcase name="deleteItemsById" classname="com.eatza.orderingservice.service.ItemServiceTest" time="0.068" displayname="deleteItemsById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.ItemServiceTest]/[test:deleteItemsById(com.eatza.orderingservice.service.ItemServiceTest)]"/>
+    <testcase name="findByOrderId_basic" classname="com.eatza.orderingservice.service.ItemServiceTest" time="0.002" displayname="findByOrderId_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.ItemServiceTest]/[test:findByOrderId_basic(com.eatza.orderingservice.service.ItemServiceTest)]"/>
+    <testcase name="saveItem_basic" classname="com.eatza.orderingservice.service.ItemServiceTest" time="0.387" displayname="saveItem_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.service.ItemServiceTest]/[test:saveItem_basic(com.eatza.orderingservice.service.ItemServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest" time="0.086" displayname="SwaggerDocketConfigurationTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest]">
+    <testcase name="uiconfigurationTest" classname="com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest" time="0.009" displayname="uiconfigurationTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest]/[test:uiconfigurationTest(com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest)]"/>
+    <testcase name="docketTest" classname="com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest" time="0.077" displayname="docketTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest]/[test:docketTest(com.eatza.orderingservice.configuration.SwaggerDocketConfigurationTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.configuration.RestTemplateConfigurationTest" time="7.275" displayname="RestTemplateConfigurationTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.configuration.RestTemplateConfigurationTest]">
+    <testcase name="restTemplateTest" classname="com.eatza.orderingservice.configuration.RestTemplateConfigurationTest" time="7.275" displayname="restTemplateTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.configuration.RestTemplateConfigurationTest]/[test:restTemplateTest(com.eatza.orderingservice.configuration.RestTemplateConfigurationTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.controller.OrderControllerTest" time="0.303" displayname="OrderControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]">
+    <testcase name="getOrderById_negative" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.14" displayname="getOrderById_negative" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:getOrderById_negative(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="cancelOrder" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.011" displayname="cancelOrder" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:cancelOrder(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="updateOrder" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.067" displayname="updateOrder" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:updateOrder(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="getOrderById" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.02" displayname="getOrderById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:getOrderById(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="placeOrder" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.016" displayname="placeOrder" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:placeOrder(com.eatza.orderingservice.controller.OrderControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;200&gt; but was:&lt;405&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.orderingservice.controller.OrderControllerTest.placeOrder(OrderControllerTest.java:80)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getOrderAmountByOrderId_positive" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.01" displayname="getOrderAmountByOrderId_positive" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:getOrderAmountByOrderId_positive(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="getOrderAmountByOrderId_negative" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.008" displayname="getOrderAmountByOrderId_negative" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:getOrderAmountByOrderId_negative(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="cancelOrder_failed" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.007" displayname="cancelOrder_failed" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:cancelOrder_failed(com.eatza.orderingservice.controller.OrderControllerTest)]"/>
+    <testcase name="updateOrder_invalid" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.011" displayname="updateOrder_invalid" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:updateOrder_invalid(com.eatza.orderingservice.controller.OrderControllerTest)]">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;com.eatza.orderingservice.exception.InvalidTokenException&gt; but was&lt;java.lang.AssertionError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.AssertionError: Response status expected:&lt;401&gt; but was:&lt;200&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.orderingservice.controller.OrderControllerTest.updateOrder_invalid(OrderControllerTest.java:171)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 43 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="updateOrder_null_token" classname="com.eatza.orderingservice.controller.OrderControllerTest" time="0.01" displayname="updateOrder_null_token" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.OrderControllerTest]/[test:updateOrder_null_token(com.eatza.orderingservice.controller.OrderControllerTest)]">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;com.eatza.orderingservice.exception.InvalidTokenException&gt; but was&lt;java.lang.AssertionError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.AssertionError: Response status expected:&lt;401&gt; but was:&lt;200&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.orderingservice.controller.OrderControllerTest.updateOrder_null_token(OrderControllerTest.java:187)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 43 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="com.eatza.orderingservice.controller.JwtControllerTest" time="0.017" displayname="JwtControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.JwtControllerTest]">
+    <testcase name="enroll" classname="com.eatza.orderingservice.controller.JwtControllerTest" time="0.017" displayname="enroll" uniqueid="[engine:junit-vintage]/[runner:com.eatza.orderingservice.controller.JwtControllerTest]/[test:enroll(com.eatza.orderingservice.controller.JwtControllerTest)]"/>
+  </testsuite>
+</testrun>

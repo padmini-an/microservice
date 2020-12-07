@@ -1,0 +1,5 @@
+package com.eatza.restaurantsearchservice.exception;
+
+public class InvalidTokenException {
+
+}

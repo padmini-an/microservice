@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="orderingservice" project="orderingservice" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.eatza.orderingservice.OrderingserviceApplicationTests" time="0.012" displayname="OrderingserviceApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.eatza.orderingservice.OrderingserviceApplicationTests]">
+    <testcase name="contextLoads" classname="com.eatza.orderingservice.OrderingserviceApplicationTests" time="0.012" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.eatza.orderingservice.OrderingserviceApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>

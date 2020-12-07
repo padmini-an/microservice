@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="restaurantsearchservice" project="restaurantsearchservice" tests="61" started="56" failures="8" errors="2" ignored="0">
+  <testsuite name="com.eatza.restaurantsearchservice.controller.MenuItemControllerTest" time="5.626" displayname="MenuItemControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.MenuItemControllerTest]">
+    <testcase name="addMenuItem" classname="com.eatza.restaurantsearchservice.controller.MenuItemControllerTest" time="0.938" displayname="addMenuItem" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.MenuItemControllerTest]/[test:addMenuItem(com.eatza.restaurantsearchservice.controller.MenuItemControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.MenuItemControllerTest.addMenuItem(MenuItemControllerTest.java:70)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getItemById" classname="com.eatza.restaurantsearchservice.controller.MenuItemControllerTest" time="0.072" displayname="getItemById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.MenuItemControllerTest]/[test:getItemById(com.eatza.restaurantsearchservice.controller.MenuItemControllerTest)]"/>
+    <testcase name="getItemById_empty" classname="com.eatza.restaurantsearchservice.controller.MenuItemControllerTest" time="0.01" displayname="getItemById_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.MenuItemControllerTest]/[test:getItemById_empty(com.eatza.restaurantsearchservice.controller.MenuItemControllerTest)]"/>
+    <testcase name="getRestaurantsContainingItem" classname="com.eatza.restaurantsearchservice.controller.MenuItemControllerTest" time="4.606" displayname="getRestaurantsContainingItem" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.MenuItemControllerTest]/[test:getRestaurantsContainingItem(com.eatza.restaurantsearchservice.controller.MenuItemControllerTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="5.122" displayname="RestaurantControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]">
+    <testcase name="getRestaurantsByName_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.016" displayname="getRestaurantsByName_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByName_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByName_zero" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.019" displayname="getRestaurantsByName_zero" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByName_zero(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;400&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.getRestaurantsByName_zero(RestaurantControllerTest.java:242)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getRestaurantsByLocationAndCuisine_zero_pagenumber" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.02" displayname="getRestaurantsByLocationAndCuisine_zero_pagenumber" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndCuisine_zero_pagenumber(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByRating_zeropgaenumber" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.039" displayname="getRestaurantsByRating_zeropgaenumber" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByRating_zeropgaenumber(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="addRestaurant" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.016" displayname="addRestaurant" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:addRestaurant(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.addRestaurant(RestaurantControllerTest.java:123)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getAllRestaurants_basic" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.014" displayname="getAllRestaurants_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getAllRestaurants_basic(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:627)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.getAllRestaurants_basic(RestaurantControllerTest.java:80)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getAllRestaurants_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.009" displayname="getAllRestaurants_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getAllRestaurants_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByName" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.013" displayname="getRestaurantsByName" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByName(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:627)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.getRestaurantsByName(RestaurantControllerTest.java:224)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getItemsByRestaurantId_basic" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.018" displayname="getItemsByRestaurantId_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getItemsByRestaurantId_basic(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getItemsByRestaurantId_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.009" displayname="getItemsByRestaurantId_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getItemsByRestaurantId_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByLocationAndCuisine_zero_pagesize" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.01" displayname="getRestaurantsByLocationAndCuisine_zero_pagesize" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndCuisine_zero_pagesize(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByBudget" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.018" displayname="getRestaurantsByBudget" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByBudget(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByLocationAndName_noRestaurants" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.008" displayname="getRestaurantsByLocationAndName_noRestaurants" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndName_noRestaurants(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByLocationAndName" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.006" displayname="getRestaurantsByLocationAndName" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndName(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByRating" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.007" displayname="getRestaurantsByRating" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByRating(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByLocationAndCuisine" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.009" displayname="getRestaurantsByLocationAndCuisine" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndCuisine(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByLocationAndName_bad" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.008" displayname="getRestaurantsByLocationAndName_bad" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndName_bad(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByRating_zero_pagesize" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.007" displayname="getRestaurantsByRating_zero_pagesize" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByRating_zero_pagesize(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByBudget_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.009" displayname="getRestaurantsByBudget_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByBudget_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByName_zeropagesize" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.014" displayname="getRestaurantsByName_zeropagesize" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByName_zeropagesize(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;400&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.getRestaurantsByName_zeropagesize(RestaurantControllerTest.java:260)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getRestaurantsByRating_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.012" displayname="getRestaurantsByRating_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByRating_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getRestaurantsByBudget_zero" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.012" displayname="getRestaurantsByBudget_zero" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByBudget_zero(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+    <testcase name="getItemsByRestaurantId_invalid" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.017" displayname="getItemsByRestaurantId_invalid" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getItemsByRestaurantId_invalid(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Expected exception: com.eatza.restaurantsearchservice.exception.InvalidTokenException&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:34)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getAllRestaurants_zeroPage" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="0.019" displayname="getAllRestaurants_zeroPage" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getAllRestaurants_zeroPage(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]">
+      <failure>java.lang.AssertionError: Response status expected:&lt;400&gt; but was:&lt;404&gt;&#13;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)&#13;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)&#13;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:63)&#13;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)&#13;
+	at com.eatza.restaurantsearchservice.controller.RestaurantControllerTest.getAllRestaurants_zeroPage(RestaurantControllerTest.java:94)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#13;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="getRestaurantsByLocationAndCuisine_empty" classname="com.eatza.restaurantsearchservice.controller.RestaurantControllerTest" time="4.781" displayname="getRestaurantsByLocationAndCuisine_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.RestaurantControllerTest]/[test:getRestaurantsByLocationAndCuisine_empty(com.eatza.restaurantsearchservice.controller.RestaurantControllerTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.controller.JwtControllerTest" time="0.238" displayname="JwtControllerTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.JwtControllerTest]">
+    <testcase name="enroll" classname="com.eatza.restaurantsearchservice.controller.JwtControllerTest" time="0.238" displayname="enroll" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.controller.JwtControllerTest]/[test:enroll(com.eatza.restaurantsearchservice.controller.JwtControllerTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.21" displayname="RestaurantServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]">
+    <testcase name="findByLocationAndCuisine" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.129" displayname="findByLocationAndCuisine" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findByLocationAndCuisine(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findMenuItemByRestaurantId_basic" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.013" displayname="findMenuItemByRestaurantId_basic" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findMenuItemByRestaurantId_basic(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findById" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.006" displayname="findById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findById(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findByName" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.007" displayname="findByName" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findByName(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="getAllRestaurants" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.008" displayname="getAllRestaurants" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:getAllRestaurants(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findByLocationAndName" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.007" displayname="findByLocationAndName" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findByLocationAndName(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="saveRestaurant" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.007" displayname="saveRestaurant" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:saveRestaurant(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findByBudget" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.008" displayname="findByBudget" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findByBudget(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findById_empty" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.007" displayname="findById_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findById_empty(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findMenuItemByRestaurantId_expection" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.006" displayname="findMenuItemByRestaurantId_expection" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findMenuItemByRestaurantId_expection(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+    <testcase name="findByRating" classname="com.eatza.restaurantsearchservice.service.RestaurantServiceTest" time="0.012" displayname="findByRating" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.RestaurantServiceTest]/[test:findByRating(com.eatza.restaurantsearchservice.service.RestaurantServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest" time="0.088" displayname="JwtAuthenticationServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest]">
+    <testcase name="authenticateUser_invalidpassword" classname="com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest" time="0.01" displayname="authenticateUser_invalidpassword" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser_invalidpassword(com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest)]"/>
+    <testcase name="authenticateUser_invalidname" classname="com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest" time="0.009" displayname="authenticateUser_invalidname" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser_invalidname(com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest)]"/>
+    <testcase name="authenticateUser" classname="com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest" time="0.069" displayname="authenticateUser" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest]/[test:authenticateUser(com.eatza.restaurantsearchservice.service.JwtAuthenticationServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.service.MenuServiceTest" time="0.06" displayname="MenuServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuServiceTest]">
+    <testcase name="saveMenu" classname="com.eatza.restaurantsearchservice.service.MenuServiceTest" time="0.006" displayname="saveMenu" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuServiceTest]/[test:saveMenu(com.eatza.restaurantsearchservice.service.MenuServiceTest)]"/>
+    <testcase name="getMenuByRestaurantId" classname="com.eatza.restaurantsearchservice.service.MenuServiceTest" time="0.005" displayname="getMenuByRestaurantId" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuServiceTest]/[test:getMenuByRestaurantId(com.eatza.restaurantsearchservice.service.MenuServiceTest)]"/>
+    <testcase name="getMenuById" classname="com.eatza.restaurantsearchservice.service.MenuServiceTest" time="0.048" displayname="getMenuById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuServiceTest]/[test:getMenuById(com.eatza.restaurantsearchservice.service.MenuServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="8.023" displayname="MenuItemServiceTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]">
+    <testcase name="findByNameOfRestaurant_exception" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.006" displayname="findByNameOfRestaurant_exception" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:findByNameOfRestaurant_exception(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="findByNameOfRestaurant_empty" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.005" displayname="findByNameOfRestaurant_empty" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:findByNameOfRestaurant_empty(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="saveMenuItem_error" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.005" displayname="saveMenuItem_error" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:saveMenuItem_error(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="findById" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.004" displayname="findById" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:findById(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="saveMenuItem" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.005" displayname="saveMenuItem" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:saveMenuItem(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="findByNameOfRestaurant" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="0.005" displayname="findByNameOfRestaurant" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:findByNameOfRestaurant(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+    <testcase name="findByMenuId" classname="com.eatza.restaurantsearchservice.service.MenuItemServiceTest" time="7.993" displayname="findByMenuId" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.service.MenuItemServiceTest]/[test:findByMenuId(com.eatza.restaurantsearchservice.service.MenuItemServiceTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" incomplete="true" displayname="RestaurantRepositoryTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]">
+    <testcase name="findByRatingGreaterThanEqual" classname="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" time="0.004" displayname="findByRatingGreaterThanEqual" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]/[test:findByRatingGreaterThanEqual(com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest)]">
+      <error>java.lang.IllegalStateException: Failed to load ApplicationContext&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)&#13;
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)&#13;
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)&#13;
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)&#13;
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)&#13;
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)&#13;
+	... 47 more&#13;
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)&#13;
+	... 75 more&#13;
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.util.Assert.state(Assert.java:76)&#13;
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:179)&#13;
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:145)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)&#13;
+	... 86 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="findByLocationContainingAndNameContaining" classname="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" time="0.005" displayname="findByLocationContainingAndNameContaining" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]/[test:findByLocationContainingAndNameContaining(com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest)]">
+      <error>java.lang.IllegalStateException: Failed to load ApplicationContext&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)&#13;
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)&#13;
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)&#13;
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#13;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Iterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)&#13;
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)&#13;
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)&#13;
+	... 47 more&#13;
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)&#13;
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)&#13;
+	... 75 more&#13;
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.&#13;
+	at org.springframework.util.Assert.state(Assert.java:76)&#13;
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:179)&#13;
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:145)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)&#13;
+	... 86 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="findAll" classname="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" incomplete="true" displayname="findAll" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]/[test:findAll(com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest)]"/>
+    <testcase name="findByLocationContainingAndCuisineContaining" classname="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" incomplete="true" displayname="findByLocationContainingAndCuisineContaining" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]/[test:findByLocationContainingAndCuisineContaining(com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest)]"/>
+    <testcase name="findByNameContaining" classname="com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest" incomplete="true" displayname="findByNameContaining" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest]/[test:findByNameContaining(com.eatza.restaurantsearchservice.repository.RestaurantRepositoryTest)]"/>
+  </testsuite>
+  <testsuite name="com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest" incomplete="true" displayname="SwaggerDocketConfigurationTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest]">
+    <testcase name="uiconfigurationTest" classname="com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest" incomplete="true" displayname="uiconfigurationTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest]/[test:uiconfigurationTest(com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest)]"/>
+    <testcase name="docketTest" classname="com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest" incomplete="true" displayname="docketTest" uniqueid="[engine:junit-vintage]/[runner:com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest]/[test:docketTest(com.eatza.restaurantsearchservice.config.SwaggerDocketConfigurationTest)]"/>
+  </testsuite>
+</testrun>
